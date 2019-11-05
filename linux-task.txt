@@ -1,0 +1,51 @@
+# linux-Challanges
+
+Task1
+
+ls
+pwd
+mkdir workspace
+cd workspace
+ls
+touch README.md
+cp README.md CHANGELOG.md
+
+Task2
+
+touch exercise.md
+mv exercise.md ../../../tmp
+rm -i /tmp/exercise.md
+
+Task3
+
+touch umuzi.md recruits.md cohort.md
+echo "follow success and excellence will chase you." > recruits.md
+echo "Something inside so Strong. I Know that I can make it." > cohort.md 
+echo "Faith it UNTIL you make it babe!" > umuzi.md
+cat umuzi.md recruits.md cohort.md
+cat umuzi.md recruits.md cohort.md >> summary.md
+echo “The End” >> summary.md
+
+Task4
+
+echo | locate umuzi >> search_result.md
+
+Task5
+
+touch Documents/pad.md
+cd Desktop/ &&  touch work
+cp ~/Documents/pad.md ./pad_copy.md
+locate updatedb
+cd -
+locate pad_copy.md
+
+Task6
+
+find / -name *.pdf
+find / -name *.pdf >> myPDFs.md
+find / -mtime 1
+
+Task7
+
+nano my_bio.md
+mkdir my_files | mv my_bio.md my_files/
